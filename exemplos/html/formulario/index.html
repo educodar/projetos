@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Meu formulário de exemplo</h1>
+    <form>
+      <div>
+        <label>
+          Nome
+          <input type="text" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Pesquisar receitas
+          <input type="search" />
+        </label>
+      </div>
+      <div>
+        <label>
+          E-mail
+          <input type="email" />
+        </label>
+      </div>
+      <div>
+        <label>
+          Assunto
+          <select>
+            <option>Selecione um assunto&hellip;</option>
+            <optgroup label="Feedback">
+              <option>Elogio</option>
+              <option>Reclamação</option>
+              <option>Sugestão</option>
+            </optgroup>
+            <optgroup label="Negócios">
+              <option>Quero trabalhar</option>
+              <option>Quero contratar os serviços</option>
+            </optgroup>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          Telefone
+          <input type="tel" />
+        </label>
+      </div>
+      <fieldset>
+        <legend>Qual é o melhor dia da semana?</legend>
+        <ul>
+          <li>
+            <label><input name="weekday" type="radio" /> Segunda-feira</label>
+          </li>
+          <li>
+            <label><input name="weekday" type="radio" /> Terça-feira</label>
+          </li>
+          <li>
+            <label><input name="weekday" type="radio" /> Quarta-feira</label>
+          </li>
+          <li>
+            <label><input name="weekday" type="radio" /> Quinta-feira</label>
+          </li>
+          <li>
+            <label><input name="weekday" type="radio" /> Sexta-feira</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Quais são os horários melhores para você?</legend>
+        <ul>
+          <li>
+            <label><input name="time" type="checkbox" /> Manhã </label>
+          </li>
+          <li>
+            <label><input name="time" type="checkbox" /> Tarde </label>
+          </li>
+          <li>
+            <label><input name="time" type="checkbox" /> Noite </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit">
+        Enviar
+      </button>
+    </form>
+  </body>
+</html>
