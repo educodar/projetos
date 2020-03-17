@@ -6,8 +6,8 @@ Projeto do Mercadinho
 Kandy é dona de um mercadinho que vende doces e guloseimas. Ela gostaria de ter uma forma melhor de controlar a venda dos produtos, e pediu nossa ajuda para isso.
 
 - [Entrada e saída](#entrada-e-saida)
-	- [Seja Bem Vindo(a)!](#seja-bem-vindoa)
-	- [Seja bem vindo(a), João](#seja-bem-vindo-joao)
+	- [Boas-vindas!](#boas-vindas)
+	- [Boas vindas, Alex!](#boas-vindas-alex)
 	- [Indicar um produto](#indicar-um-produto)
 	- [Preço do novo produto](#preco-do-novo-produto)
 	- [Estoque de bala arco-íris](#estoque-de-bala-arco-iris)
@@ -16,24 +16,24 @@ Kandy é dona de um mercadinho que vende doces e guloseimas. Ela gostaria de ter
 
 ## Entrada e saída
 
-#### Seja bem vindo(a)!
+#### Boas-vindas!
 
-Kandy gostaria de poder saudar os clientes que entram na sua loja.
+Kandy gostaria de poder saudar as clientes que entram na sua loja.
 
 ```
 programa
 { 
 	funcao inicio () 
 	{
-		escreva("Seja bem vindo(a)!")
+		escreva("Boas vindas!")
 	} 
 }
 ```
 
 
-#### Seja bem vindo(a), João!
+#### Boas vindas, Alex!
 
-As boas vindas fizeram um sucesso com os clientes! Mas mesmo assim, Kandy recebeu algumas reclamações dizendo que o atendimento era muito impessoal. Ela gostaria que fosse possível saudar os clientes com o nome deles.
+As boas vindas fizeram um sucesso com as clientes! Mas mesmo assim, Kandy recebeu algumas reclamações dizendo que o atendimento era muito impessoal. Ela gostaria que fosse possível saudar as clientes com os seus próprios nomes.
 
 
 ```
@@ -46,7 +46,7 @@ programa
 		escreva("Digite seu nome: ")
 		leia(nome)
 
-		escreva("Seja bem vindo(a), ", nome, "!")
+		escreva("Boas-vindas, ", nome, "!")
 	}
 }
 ```
